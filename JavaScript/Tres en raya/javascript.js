@@ -12,5 +12,5 @@ function desmarcar(id){
 
 function pintar(id){
     let cuadro=document.getElementById(id);
-    cuadro.innerHTML="x";
+    cuadro.innerHTML="*";
 }
