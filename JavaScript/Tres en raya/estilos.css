@@ -1,0 +1,59 @@
+body {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+}
+
+.Cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 23.9%;
+    padding-top: 0.3%;
+    padding-bottom: 5.5%;
+    border: 2px solid palevioletred;
+}
+    
+.Cuadrado > div{
+    display: flex;
+    margin: 0;
+    background-color: rgb(212, 148, 255);
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.Cuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    max-width: 30%;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: xx-large;
+}
+    
+.linea {
+    flex-wrap: nowrap;
+}
+
+.cuadrado:nth-child(4),
+.cuadrado:nth-child(5),
+.cuadrado:nth-child(6) {
+    border-top: none;
+}
+
+.linea:first-child .square,
+.linea:last-child .square {
+    border-bottom: none;
+}
