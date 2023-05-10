@@ -1,6 +1,5 @@
 'use strict'
-alert('Naomi Camuña González 1DAW, \n¡Lets Go!');
-function oscurito(identificador) {
+function oscuro(identificador) {
     let cuadrado = document.getElementById(identificador);
     cuadrado.style.backgroundColor = "purple";
 
