@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 95vw;
+    background-color: #ff9797;
+    
+}
+
+img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    width: 25%;
+}
+
+.Cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 23.9%;
+    padding-top: 0.3%;
+    padding-bottom: 5.5%;
+    margin-top: 15%;
+    margin-right: 30%;
+    border: 2px solid #7986ff;
+}
+    
+.Cuadrado > div{
+    display: flex;
+    margin: 0;
+    background-color: #97a1ff;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.Cuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    max-width: 30%;
+    margin: 10px;
+    border: 2px solid black;
+    font-size: xx-large;
+}
+    
+.linea {
+    flex-wrap: nowrap;
+}
+
+.cuadrado:nth-child(4),
+.cuadrado:nth-child(5),
+.cuadrado:nth-child(6) {
+    border-top: none;
+}
+
+.linea:first-child .square,
+.linea:last-child .square {
+    border-bottom: none;
+}

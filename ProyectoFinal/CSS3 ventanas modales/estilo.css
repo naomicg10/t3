@@ -1,0 +1,109 @@
+/* Visualizamos una imagen de fondo*/
+body {
+background-image: url("fondo.jpg");
+background-size: 100%;
+}
+
+/* Visualizamos fondo rosa y letras blancas*/
+#modal {
+    background: pink;
+    color: #12d4ba;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    transition: all .5s;
+    opacity: 80%;
+    border: 5px pink solid ;
+}
+
+/* Aqui centramos el texto y ponemos el tamaño de letras*/
+#modal p {
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    
+}
+#modal {
+    background: pink;
+    color: black;
+    position: fixed;
+    top: -200vh;
+    left: 150px;
+    height: 20vh;
+    width: 20vw;
+    transition: all .5s;
+    margin-top: 15%;
+    margin-left: 31%;
+    
+}
+
+/* Zoom, color, centrado del boton */
+#mostrar-modal {
+    display: none;
+}
+#mostrar-modal + label {
+    background: pink;
+    display: table;
+    margin: auto;
+    color: #fff;
+    line-height: 3;
+    padding: 0 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20%;
+    margin-left: 46%;
+}
+#mostrar-modal + label:hover {
+    background: #38678f;
+}
+
+/* La seudoclase :checked se activa al hacer clic */
+#mostrar-modal:checked ~ #modal {
+    top: 0;
+}
+
+/* Diseño del segundo boton */
+#cerrar-modal {
+    display: none;
+}
+#cerrar-modal + label {
+    position: absolute;
+    top: 33%;
+    right: 39%;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+/* El modal se oculte al tener el botón */
+#cerrar-modal:checked ~ #modal {
+    top: -100vh;
+}
+
+/* Botón x */
+#cerrar-modal + label {
+    display: none;
+}
+#mostrar-modal:checked ~ #cerrar-modal + label {
+    display: block;
+}
+#cerrar-modal:checked + label {
+    display: none;
+}

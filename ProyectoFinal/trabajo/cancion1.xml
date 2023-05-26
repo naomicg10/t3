@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
+<Cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancion1.xsd">
+	<titulo>Do I Wanna Know?</titulo>
+	<artista>Arctic Monkeys</artista>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Have you got colour in your cheeks?</verso>
+			<verso>Do you ever get that fear that you can't shift the tide</verso>
+			<verso>That sticks around like summat in your teeth?</verso>
+			<verso>Are there some aces up your sleeve?</verso>		
+			<verso>Have you no idea that you're in deep?</verso>
+			<verso>I dreamt about you nearly every night this week</verso>
+			<verso>How many secrets can you keep?</verso>
+			<verso>'Cause there's this tune I found</verso>
+			<verso>That makes me think of you somehow an' I play it on repeat</verso>
+			<verso>Until I fall asleep, spillin' drinks on my settee</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>pre-estribillo</tipo>
+			<verso>(Do I wanna know?) If this feelin' flows both ways?</verso>
+			<verso>(Sad to see you go) Was sorta hopin' that you'd stay</verso>
+			<verso>(Baby, we both know) That the nights were mainly made</verso>
+			<verso>For sayin' things that you can't say tomorrow day</verso>			
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Crawlin' back to you</verso>
+			<verso>Ever thought of callin' when</verso>
+			<verso>You've had a few?</verso>
+			<verso>'Cause I always do</verso>
+			<verso>Maybe I'm too</verso>
+			<verso>Busy bein' yours</verso>
+			<verso>To fall for somebody new</verso>
+			<verso>Now, I've thought it through</verso>
+			<verso>Crawlin' back to you</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>So have you got the guts?</verso>
+			<verso>Been wonderin' if your heart's still open</verso>
+			<verso>And if so, I wanna know what time it shuts</verso>
+			<verso>Simmer down an' pucker up, I'm sorry to interrupt</verso>
+			<verso>It's just I'm constantly on the cusp of tryin' to kiss you</verso>
+			<verso>But I don't know if you feel the same as I do</verso>
+			<verso>But we could be together if you wanted to</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>pre-estribillo</tipo>
+			<verso>(Do I wanna know?) If this feelin' flows both ways?</verso>
+			<verso>(Sad to see you go) Was sorta hopin' that you'd stay</verso>
+			<verso>(Baby, we both know) That the nights were mainly made</verso>
+			<verso>For sayin' things that you can't say tomorrow day</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Crawlin' back to you (Crawlin' back to you)</verso>
+			<verso>Ever thought of callin' when</verso>
+			<verso>You've had a few? (Had a few)</verso>
+			<verso>'Cause I always do ('Cause I always do)</verso>
+			<verso>Maybe I'm too (Maybe I'm too busy)</verso>
+			<verso>Busy bein' yours (Bein' yours)</verso>
+			<verso>To fall for somebody new</verso>
+			<verso>Now, I've thought it through</verso>
+			<verso>Crawlin' back to you</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>outro</tipo>
+			<verso>(Do I wanna know?) If this feelin' flows both ways?</verso>
+			<verso>(Sad to see you go) Was sorta hopin' that you'd stay</verso>
+			<verso>(Baby, we both know) That the nights were mainly made</verso>
+			<verso>For sayin' things that you can't say tomorrow day</verso>
+			<verso>(Do I wanna know?) Too busy bein' yours to fall</verso>
+			<verso>(Sad to see you go) Ever thought of callin', darlin'?</verso>
+			<verso>(Do I wanna know?) Do you want me crawlin' back to you?</verso>
+		</estrofa>
+</Cancion>

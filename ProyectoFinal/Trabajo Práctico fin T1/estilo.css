@@ -1,0 +1,374 @@
+li {
+    display: inline-block;
+    width:5%;
+    height: 1em;
+    background-color: rgb(255, 86, 86);
+    border-radius: 5px;
+    margin: 0px;
+    border-width: 0px 1px 1px 0px;
+    border-color: blue;
+    border-style: solid;
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: 2px 2px rgb(86, 86, 255);
+}
+h1 {
+    background-color: rgb(255, 86, 86);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px rgb(86, 86, 255);
+    animation: uno;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction:alternate;
+}
+@keyframes uno {
+    from {
+        margin-right: 20%;
+        width: 50%;
+        color: rgb(255, 86, 86);
+    }
+    50% {
+        margin-left: 5%;
+        font-size: 300%;
+        color: rgb(86, 86, 255);
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+        color: white;
+    }
+}
+#seleccionado {
+    box-shadow: 2px 2px rgb(140, 140, 250) inset;
+}
+
+li#seleccionado {
+    background-color: rgb(250, 140, 140);
+}
+div{
+    column-count: 6;
+}
+#pa1 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa1::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa2 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa2::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa3 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa3::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa4 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa4::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa5 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa5::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa6 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa6::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa7 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa7::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa8 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa8::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa9 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa9::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa10 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa10::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa11 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa11::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa12 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa12::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa13 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa13::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa14 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa14::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa15 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa15::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa16 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa16::first-letter {
+    color:rgb(140, 140, 250);
+}
+#pa17 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa17::first-letter {
+    color:rgb(255, 86, 86);
+}
+#pa18 {
+    text-align: center;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+#pa18::first-letter {
+    color:rgb(140, 140, 250);
+}
+img{
+    position:static;
+    margin-top: 5px;
+}  
+.fotoHumos{
+    float: center;
+    height: 300px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.fotoDuelistas{
+    float: center;
+    height: 300px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 8px;    
+}
+.fotoCentinelas {
+    float: center;
+    height: 300px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 8px; 
+}
+.fotoIniciadores {
+    float: center;
+    height: 300px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 8px; 
+}
+
+article {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+#caja {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+}
+figcaption{
+    font-size:larger;
+    margin: 10px;
+}
+#fotoAscent {
+    width: 70%;
+}
+#fotoBind {
+    width: 70%;
+}
+#fotoBreeze {
+    width: 70%;
+}
+#fotoFracture {
+    width: 70%;
+}
+#fotoHaven {
+    width: 70%;
+}
+#fotoIcebox {
+    width: 70%;
+}
+#fotoSplit {
+    width: 70%;
+}
+.textoAscent {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;;
+}
+.textoAscent:hover {
+    background-color: rgb(255, 86, 86);
+    padding-left: 33.3%;
+    padding-right: 33.3%;
+}
+.textoBind {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;
+}
+.textoBind:hover {
+    background-color: rgb(255, 86, 86);
+    padding-left: 33.8%;
+    padding-right: 33.8%;
+}
+.textoBreeze {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;
+}
+.textoBreeze:hover {
+    background-color: rgb(255, 86, 86);   
+    padding-left: 33.2%;
+    padding-right: 33.2%;
+}
+.textoFracture {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;
+}
+.textoFracture:hover {
+    background-color: rgb(255, 86, 86);    
+    padding-left: 32.9%;
+    padding-right: 32.9%;
+}
+.textoHaven {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;
+}
+.textoHaven:hover {
+    background-color: rgb(255, 86, 86);    
+    padding-left: 33.4%;
+    padding-right: 33.4%;
+}
+.textoIcebox {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;
+}
+.textoIcebox:hover {
+    background-color: rgb(255, 86, 86);    
+    padding-left: 33.3%;
+    padding-right: 33.3%;
+}
+.textoSplit {
+    background-color: white; 
+    padding-left: 33.3%; 
+    padding-right: 33.3%;
+}
+.textoSplit:hover {
+    background-color: rgb(255, 86, 86); 
+    padding-left: 33.8%;
+    padding-right: 33.8%;
+}
+@media screen and (max-width:800px) {
+    p{
+        color: rgb(140, 140, 250);
+    }
+}
+@media screen and (orientation:portrait) {
+    p{
+        color: rgb(255, 86, 86);
+    }
+}
+@media screen and (max-width:900px) {
+    li{
+        width: 100px;
+    }
+}
+@media screen and (max-width:600px) {
+    li{
+        width: 50px;
+    }
+}
+
+

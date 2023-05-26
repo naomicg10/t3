@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cancionirenenaomi.xsl"?>
+<Cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancionirenenaomi.xsd">
+	<titulo>Si tú te vas</titulo>
+	<artista>Khaled</artista>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Ay, ay, ay</verso>
+			<verso>Muah</verso>
+			<verso>Habibi Music</verso>
+			<verso>190</verso>		
+			<verso>Oh-oh-oh</verso>
+			<verso>Gracias a Dios ahora to' va bien (Muah; mm-mm-mm)</verso>
+			<verso>Aunque ninguno de ello' estén (Habibi)</verso>
+			<verso>Juro que no lo volvería hacer, yo no lo volvería hacer</verso>
+			<verso>I tell you baby mama, I own you</verso>
+			<verso>Khaled, ay, ay, ay (Mm-mm-mmm)</verso>
+			<verso>I tell you baby mama, I own you (Po-po-po-po-po-po)</verso>
+			<verso>I tell you baby mama, I own you</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Si tú te va', juro que yo me voy detrás (Y sí tú te va', y si tú te va')</verso>
+			<verso>Lo digo de verdad, to' lo malo lo deje atrá' (Po-po-po-po-po; si tú te—, si tú te—)</verso>
+			<verso>Si tú te va', juro que yo me voy detrás (Y sí tú te va', y si tú te va')</verso>
+			<verso>Lo digo de verdad, to' lo malo lo deje atrá' (Si tú te—, si tú te—, si tú te—; prra)</verso>			
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Si tú me estás mirando como yo te miro a ti</verso>
+			<verso>Aquí sobran los comentario', aquí no hay na' más que decir (Habibi)</verso>
+			<verso>Niña, déjate llevar, desahógate encima de mí (Muah)</verso>
+			<verso>Que si te digo la verdad, yo quiero que seas pa' mí (Po-po-po-po-po)</verso>
+			<verso>Y vamo' a bailar como hay que bailar</verso>
+			<verso>Tú ponte a'lante, a mí déjame atrá'</verso>
+			<verso>Con esa cintura normal que te quiera dar</verso>
+			<verso>Mami, con cualquier piquete tú te ves fenomenal</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>pre-estribillo</tipo>
+			<verso>Y pase lo que pase yo siempre estaré aquí para concederte un baile</verso>
+			<verso>Me han dicho que tiene' novio, que no tiene clase</verso>
+			<verso>Si quieres yo le doy clase' pa' que te guaye</verso>
+			<verso>Y pase lo que pase yo siempre estaré aquí para concederte un baile (Po-po-po-po-po)</verso>
+			<verso>Me han dicho que tiene' novio, que no tiene clase (Ay, ay, ay)</verso>
+			<verso>Si quieres yo le doy clase' pa' que te guaye (Brra)</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Si tú te va', juro que yo me voy detrás (Y sí tú te va', y si tú te va')</verso>
+			<verso>Lo digo de verdad, to' lo malo lo deje atrá' (Si tú te—, si tú te—)</verso>
+			<verso>Si tú te va', juro que yo me voy detrás (Y sí tú te va', y si tú te va')</verso>
+			<verso>Lo digo de verdad, to' lo malo lo deje atrá' (Si tú te—, si tú te—, y si tú te—)</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>Y si te digo la verdad, yo nunca te voy a mentir</verso>
+			<verso>A lo mejor tienen razón to' esa gente que habla de mí</verso>
+			<verso>Pero si dices que sí, tú nunca te va' a arrepentir</verso>
+			<verso>Niña, móntate en mi moto que nos vamo' a ir de aquí</verso>
+			<verso>Dicen que yo ya no le meto pero le meto cabrón</verso>
+			<verso>Lo que me diferencia de esos e' que le pongo corazón</verso>
+			<verso>Dicen que no le meto pero le meto cabrón</verso>
+			<verso>Hermano, yo soy una leyenda como Fifty en Nueva York</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>pre-estribillo</tipo>
+			<verso>Y pase lo que pase yo siempre estaré aquí para concederte un baile</verso>
+			<verso>Me han dicho que tiene' novio, que no tiene clase</verso>
+			<verso>Si quieres yo le doy clase' pa' que te guaye</verso>
+			<verso>Y pase lo que pase yo siempre estaré aquí para concederte un baile</verso>
+			<verso>Me han dicho que tiene' novio, que no tiene clase</verso>
+			<verso>Si quieres yo le doy clase' pa' que te guaye</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>Si tú te va', juro que yo me voy detrás (Y sí tú te va', y si tú te va')</verso>
+			<verso>Lo digo de verdad, to' lo malo lo deje atrá' (Si tú te—, si tú te—)</verso>
+			<verso>Si tú te va', juro que yo me voy detrás (Y sí tú te va', y si tú te va')</verso>
+			<verso>Lo digo de verdad, to' lo malo lo deje atrá' (Si tú te—, si tú te—, y si tú te—)</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>outro</tipo>
+			<verso>Gracias a Dios ahora to' va bien</verso>
+			<verso>Aunque ninguno de ello' estén</verso>
+			<verso>Juro que no lo volvería hacer, yo no lo volvería hacer</verso>
+			<verso>I tell you baby mama, I own you</verso>
+			<verso>I tell you baby mama, I own you</verso>
+			<verso>I tell you baby mama, I own you</verso>
+		</estrofa>
+</Cancion>

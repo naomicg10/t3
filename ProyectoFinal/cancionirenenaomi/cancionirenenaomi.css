@@ -1,0 +1,52 @@
+body{
+    counter-reset: estrofa section;
+    width: 55%;
+    margin: 0 auto; 
+    background-color: pink;
+}
+
+header {
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    text-align:center;  
+    font-size: 30px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3{
+    color: rgb(97, 97, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    color:rgb(97, 97, 255);
+    font-size: 20px;
+}
+
+span{
+    display: block;
+    color: rgb(97, 97, 255);
+    background-color: rgb(255, 255, 134);
+    font-weight: bold;
+}
+    h2::before {  
+        counter-increment: estrofa;
+        content:  " " counter(estrofa) ": ";
+    }
+
+  p::before {
+    counter-increment: section; 
+    content: "Verso " counter(section) ": "; 
+    color: black;
+  }
