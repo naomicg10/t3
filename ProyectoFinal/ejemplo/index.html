@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var body = document.body;
+            var modo = localStorage.getItem("modo");
+
+            if (modo === "noche") {
+                body.classList.remove("modo-dia");
+                body.classList.add("modo-noche");
+            } else {
+                body.classList.remove("modo-noche");
+                body.classList.add("modo-dia");
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var color = localStorage.getItem("color");
+            var font = localStorage.getItem("font");
+
+            aplicarEstilos(color, font);
+        });
+    </script>
+
+
+</head>
+
+<body id="index">
+    <nav>
+        <ul>
+            <a href="./index.html">
+                <li id="seleccionado">Índice</li>
+            </a>
+            <a href="./ajustes.html">
+                <li>Ajustes</li>
+            </a>
+            <a href="./cancion.html">
+                <li>Binks no sake</li>
+            </a>
+            <a href="./mas.html">
+                <li>Más teorías</li>
+            </a>
+            <a onclick="window.modal.showModal();">
+                <li>Hola</li>
+            </a>
+            <dialog id="modal">
+                <p>
+                    Este trabajo fue entregado el 26/05 <br>
+                    Soy Irene Guerrero del curso 1DAW y este es mi trabajo final sobre teorías del anime One Piece.<br>
+                    En la página Binks no sake hay un gif con una animación <br>
+                    ¡Te invito a probarlo! <br>
+                    El fondo oscuro solo se ve en la página de ajustes y en la canción Binks no sake <br>
+                    porque tanto el Índice como el Más información tienen fondos de pantalla. <br>
+                    Sobre el javascript, todas las páginas contienen ese lenguaje de código, <br>
+                    en algunas son visibles y en otras no. <br>
+                    <br>
+                    Espero que disfrutes de esta página que tanto trabajo me ha costado <br>
+                    ¡Gracias por pasarte!
+                </p>
+                <button onclick="window.modal.close();">¡Disfruta de la página!</button>
+            </dialog>
+        </ul>
+        <p id="username"></p>
+    </nav>
+    <script>
+        function saveUsername() {
+            var username = document.getElementById("usernameInput").value;
+            sessionStorage.setItem("username", username);
+            updateUsername();
+        }
+
+        function updateUsername() {
+            var username = sessionStorage.getItem("username");
+            var usernameElement = document.getElementById("username");
+            if (username) {
+                usernameElement.textContent = username;
+            } else {
+                usernameElement.textContent = "sin identificar";
+            }
+        }
+
+        // Actualizar el nombre de usuario al cargar la página
+        document.addEventListener("DOMContentLoaded", function () {
+            updateUsername();
+        });
+    </script>
+
+<img id="bandera" src="./recursos/bandera.gif" style="width:220px;height:120px">
+
+
+
+
+    <div class="contenedor">
+        <details class="desplegable" onclick="mostrarTituloDesplegable(this)">
+            <summary>La voluntad de D.</summary>
+            <p>
+                Según esta teoría, la "D." <br>
+                presente en los nombres de algunos personajes, <br>
+                como Monkey D. Luffy y Gol D. Roger, <br>
+                es un indicio de una conexión especial entre ellos. <br>
+                Se cree que esta letra representa una herencia ancestral <br>
+                o un linaje que está relacionado con eventos cruciales en <br>
+                el mundo de One Piece.
+            </p>
+        </details>
+
+        <details class="desplegable" onclick="mostrarTituloDesplegable(this)">
+            <summary>El Tesoro de One Piece</summary>
+            <p>
+                Esta es una de las teorías más discutidas. <br>
+                Según ella, el tesoro mencionado en el título del anime <br>
+                es en realidad un concepto abstracto y no un tesoro material. <br>
+                Algunos creen que el verdadero tesoro es la amistad y la camaradería <br>
+                que los personajes encuentran en su viaje. <br>
+                Sin embargo, Oda reveló que odia ese tipo de finales.
+            </p>
+        </details>
+
+        <details class="desplegable" onclick="mostrarTituloDesplegable(this)">
+            <summary>El Gobierno Mundial</summary>
+            <p>
+                Esta teoría sugiere que el Gobierno Mundial en One Piece es en realidad una <br>
+                entidad malévola que oculta información sobre la Verdadera Historia <br>
+                y busca mantener el control sobre el mundo. <br>
+                Se cree que hay una conspiración detrás de sus acciones y que hay un objetivo oculto <br>
+                detrás de su poder.
+            </p>
+        </details>
+
+        <details class="desplegable" onclick="mostrarTituloDesplegable(this)">
+            <summary>Los Poneglyphs</summary>
+            <p>
+                Los Poneglyphs son unas piedras antiguas que contienen <br>
+                información sobre la Verdadera Historia. <br>
+                Según esta teoría, si todos los Poneglyphs se juntan, <br>
+                revelarían secretos cruciales sobre el pasado del mundo de One Piece <br>
+                y la historia de los antiguos reinos.
+            </p>
+        </details>
+
+        <details class="desplegable" onclick="mostrarTituloDesplegable(this)">
+            <summary>La ubicación de One Piece</summary>
+            <p>
+                Esta teoría especula sobre la ubicación real de One Piece. <br>
+                Algunos creen que está en la Isla Raftel, la última isla de la Ruta de Grand Line, <br>
+                mientras que otros sugieren ue el tesoro puede estar relacionado con el All Blue, <br>
+                un legendario mar que contiene todos los tipos de peces.
+            </p>
+        </details>
+
+    </div>
+
+    
+    <script src="./javascript.js">
+        mostrarTextoAlmacenado();
+    </script>
+</body>
+
+</html>

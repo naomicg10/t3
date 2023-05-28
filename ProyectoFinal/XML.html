@@ -1,14 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XML</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var body = document.body;
+            var modo = localStorage.getItem("modo");
+
+            if (modo === "noche") {
+                body.classList.remove("modo-dia");
+                body.classList.add("modo-noche");
+            } else {
+                body.classList.remove("modo-noche");
+                body.classList.add("modo-dia");
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var color = localStorage.getItem("color");
+            var font = localStorage.getItem("font");
+
+            aplicarEstilos(color, font);
+        });
+    </script>
+
 </head>
+
 <body>
+    <nav>
+        <ul>
+            <a href="./Inicio.html">
+                <li id="seleccionado">Inicio</li>
+            </a>
+            <a href="./XML.html">
+                <li>XML</li>
+            </a>
+            <a href="./Ta-te-ti.html">
+                <li>TA-TE-TI</li>
+            </a>
+            <a href="./Ajustes.html">
+                <li>Ajustes</li>
+            </a>
+            <a onclick="window.modal.showModal();">
+                <li>Modal</li>
+            </a>
+            <dialog id="modal">
+                <p>
+                    Naomi Camuña González 1DAW <br>
+                    El fondo oscuro solo se ve en la página de ajustes <br>
+                    porque tanto el Inicio como el TA-TE-TI tienen fondos. <br>
+                    Los ajustes de cambio de fuente se me aplican en todas las páginas menos la de XML <br>
+                    Los ajustes de cambio de color solo se me aplica en la letra del boton Modal <br>
+                    <br>
+                </p>
+                <button id="CerrarModal" onclick="window.modal.close();">X</button>
+            </dialog>
+        </ul>
+        <p id="username"></p>
+    </nav>
     <div>
-        <iframe src="<iframe src="https://naomicg10.github.io/t3/ProyectoFinal/XML.xml" width="100%" height="723" />"
+        <iframe src="<iframe src=" https://naomicg10.github.io/t3/ProyectoFinal/XML.xml" width="100%" height="723" />"
     </div>
+    <script src="./javascript.js">
+        mostrarTextoAlmacenado();
+    </script>
 </body>
+
 </html>

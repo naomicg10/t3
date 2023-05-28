@@ -6,43 +6,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tres en Raya</title>
-    <link rel="stylesheet" type="text/css" href="estilosTateti.css" />
-    <link rel="stylesheet" href="./estilosinicio.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var body = document.body;
+            var modo = localStorage.getItem("modo");
+
+            if (modo === "noche") {
+                body.classList.remove("modo-dia");
+                body.classList.add("modo-noche");
+            } else {
+                body.classList.remove("modo-noche");
+                body.classList.add("modo-dia");
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var color = localStorage.getItem("color");
+            var font = localStorage.getItem("font");
+
+            aplicarEstilos(color, font);
+        });
+    </script>
+
 </head>
 
-<body style="background:light-gray">
+<body id="bta-te-ti" style="background:light-gray">
     <script src="./javascript.js"></script>
     <nav>
-    <div class="container">
-        <div class="link-box-i">
-		<a href="Ta-te-ti.html">TA - TE - TI</a>
-        <a href="" onclick="alert('Naomi Camuña González, 1 DAW, el tema elegido es algo sobre Marvel.')">Más información</a>
-        <a href="XML.xml">XML</a>
-        <a href="Modal.html">Modal</a>
-        <a href="Ajustes.html">Ajustes</a>
-        </div>
-    </div>
+        <ul>
+            <a href="./Inicio.html">
+                <li id="seleccionado">Inicio</li>
+            </a>
+            <a href="./XML.html">
+                <li>XML</li>
+            </a>
+            <a href="./Ta-te-ti.html">
+                <li>TA-TE-TI</li>
+            </a>
+            <a href="./Ajustes.html">
+                <li>Ajustes</li>
+            </a>
+            <a onclick="window.modal.showModal();">
+                <li>Modal</li>
+            </a>
+            <dialog id="modal">
+                <p>
+                    Naomi Camuña González 1DAW <br>
+                    El fondo oscuro solo se ve en la página de ajustes <br>
+                    porque tanto el Inicio como el TA-TE-TI tienen fondos. <br>
+                    Los ajustes de cambio de fuente se me aplican en todas las páginas menos la de XML <br>
+                    Los ajustes de cambio de color solo se me aplica en la letra del boton Modal <br>
+                </p>
+                <button id="CerrarModal" onclick="window.modal.close();">X</button>
+            </dialog>
+        </ul>
+        <p id="username"></p>
     </nav>
+    <script>
+        function saveUsername() {
+            var username = document.getElementById("usernameInput").value;
+            sessionStorage.setItem("username", username);
+            updateUsername();
+        }
 
-    <div class="Cuadrado">
-        <h1>PLAY</h1>
-        <div class="linea">
-            <div id="c11" onmouseenter="oscuro('c11')" onmouseleave="Quitar('c11')" onclick="simbolo('c11')" class="Cuadro"></div>
-            <div id="c12" onmouseenter="oscuro('c12')" onmouseleave="Quitar('c12')" onclick="simbolo('c12')" class="Cuadro"></div>
-            <div id="c13" onmouseenter="oscuro('c13')" onmouseleave="Quitar('c13')" onclick="simbolo('c13')" class="Cuadro"></div>
-        </div>
-        <div class="linea">
-            <div id="c21" onmouseenter="oscuro('c21')" onmouseleave="Quitar('c21')" onclick="simbolo('c21')" class="Cuadro"></div>
-            <div id="c22" onmouseenter="oscuro('c22')" onmouseleave="Quitar('c22')" onclick="simbolo('c22')" class="Cuadro"></div>
-            <div id="c23" onmouseenter="oscuro('c23')" onmouseleave="Quitar('c23')" onclick="simbolo('c23')" class="Cuadro"></div>
-        </div>
-        <div class="linea">
-            <div id="c31" onmouseenter="oscuro('c31')" onmouseleave="Quitar('c31')" onclick="simbolo('c31')" class="Cuadro"></div>
-            <div id="c32" onmouseenter="oscuro('c32')" onmouseleave="Quitar('c32')" onclick="simbolo('c32')" class="Cuadro"></div>
-            <div id="c33" onmouseenter="oscuro('c33')" onmouseleave="Quitar('c33')" onclick="simbolo('c33')" class="Cuadro"></div>
+        function updateUsername() {
+            var username = sessionStorage.getItem("username");
+            var usernameElement = document.getElementById("username");
+            if (username) {
+                usernameElement.textContent = username;
+            } else {
+                usernameElement.textContent = "sin identificar";
+            }
+        }
+
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            updateUsername();
+        });
+    </script>
+    <script src="./javascript.js">
+        mostrarTextoAlmacenado();
+    </script>
+
+    <div id="Ta-te-ti">
+        <div class="Cuadrado">
+            <h1 id="play">PLAY</h1>
+            <div class="linea">
+                <div id="c11" onmouseenter="oscuro('c11')" onmouseleave="Quitar('c11')" onclick="simbolo('c11')"
+                    class="Cuadro"></div>
+                <div id="c12" onmouseenter="oscuro('c12')" onmouseleave="Quitar('c12')" onclick="simbolo('c12')"
+                    class="Cuadro"></div>
+                <div id="c13" onmouseenter="oscuro('c13')" onmouseleave="Quitar('c13')" onclick="simbolo('c13')"
+                    class="Cuadro"></div>
+            </div>
+            <div class="linea">
+                <div id="c21" onmouseenter="oscuro('c21')" onmouseleave="Quitar('c21')" onclick="simbolo('c21')"
+                    class="Cuadro"></div>
+                <div id="c22" onmouseenter="oscuro('c22')" onmouseleave="Quitar('c22')" onclick="simbolo('c22')"
+                    class="Cuadro"></div>
+                <div id="c23" onmouseenter="oscuro('c23')" onmouseleave="Quitar('c23')" onclick="simbolo('c23')"
+                    class="Cuadro"></div>
+            </div>
+            <div class="linea">
+                <div id="c31" onmouseenter="oscuro('c31')" onmouseleave="Quitar('c31')" onclick="simbolo('c31')"
+                    class="Cuadro"></div>
+                <div id="c32" onmouseenter="oscuro('c32')" onmouseleave="Quitar('c32')" onclick="simbolo('c32')"
+                    class="Cuadro"></div>
+                <div id="c33" onmouseenter="oscuro('c33')" onmouseleave="Quitar('c33')" onclick="simbolo('c33')"
+                    class="Cuadro"></div>
+            </div>
         </div>
     </div>
-    <img src="araña.png">
+    <script src="./javascript.js">
+        mostrarTextoAlmacenado();
+    </script>
 </body>
 
 </html>

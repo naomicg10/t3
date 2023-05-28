@@ -1,39 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="XML.xsl"?>
 <Cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML.xsd">
-	<titulo>Mil Horas</titulo>
-	<artista>Los Abuelos De La Nada</artista>
+	<titulo>It's Been A Long, Long Time</titulo>
+	<artista>Harry James & his Orchestra</artista>
 		<estrofa>
 			<tipo>normal</tipo>
-			<verso>Hace frío y estoy lejos de casa</verso>
-			<verso>Hace tiempo que estoy sentado sobre esta piedra</verso>
-			<verso>Yo me pregunto: "¿Para qué sirven las guerras?"</verso>
-			<verso>Tengo un cohete en el pantalón</verso>		
-			<verso>Vos estás tan fría como la nieve a mi alrededor</verso>
-			<verso>Vos estás tan blanca, que ya no sé qué hacer</verso>
+			<verso>Never thought that you would be</verso>
+			<verso>Standing here so close to me</verso>
+			<verso>There's so much I feel that I should say</verso>
+			<verso>But words can wait until some other day</verso>		
 		</estrofa>
 		<estrofa>
 			<tipo>estribillo</tipo>
-			<verso>La otra noche te esperé bajo la lluvia dos horas</verso>
-			<verso>Mil horas, como un perro</verso>
-			<verso>Y cuando llegaste, me miraste y me dijiste:</verso>
-			<verso> "Loco estás mojado, ya no te quiero"</verso>			
+			<verso>Kiss me once, then kiss me twice</verso>
+			<verso>Then kiss me once again</verso>
+			<verso>It's been a long, long time</verso>
+			<verso>Haven't felt like this, my dear</verso>
+			<verso>Since I can't remember when</verso>	
+			<verso>It's been a long, long time</verso>
 		</estrofa>
 		<estrofa>
 			<tipo>normal</tipo>
-			<verso>En el circo, vos ya sos una estrella</verso>
-			<verso>Una estrella roja que todo se lo imagina</verso>
-			<verso>Si te preguntan, vos no me conocías, no, no</verso>
-			<verso>Tengo un cohete en el pantalón</verso>
-			<verso>Vos estás tan fría como la nieve a mi alrededor</verso>
-			<verso>Vos estás tan blanca, que ya no sé qué hacer</verso>
+			<verso>You'll never know how many dreams</verso>
+			<verso>I've dreamed about you</verso>
+			<verso>Or just how empty they all seemed without you</verso>
+			<verso>So kiss me once, then kiss me twice</verso>
+			<verso>Then kiss me once again</verso>
+			<verso>It's been a long, long time</verso>
 		</estrofa>
-		<estrofa>
-			<tipo>estribillo</tipo>
-			<verso>La otra noche te esperé, bajo la lluvia, dos horas</verso>
-			<verso>Mil horas, como un perro</verso>
-			<verso>Y cuando llegaste, me miraste, y me dijiste:</verso>
-			<verso>"Loco estás mojado, ya no te quiero"</verso>
-		</estrofa>
-		
 </Cancion>

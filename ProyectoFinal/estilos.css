@@ -1,0 +1,187 @@
+/* Estilo Inicio */
+#Inicio {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("Fondo1.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+li {
+    /* estilo del botón */
+    display: inline-block;
+    width: 10%;
+    height: 1%;
+    background-color: #377bb5;
+    border-radius: 5px;
+    border-width: 0px 3px 3px 0px;
+    border-color: #B92829;
+    border-style: solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: large;
+    box-shadow: 2px 2px rgb(232, 202, 35);
+}
+
+li a {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#textoInicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    padding: 3%;
+    margin-left: 15%;
+    margin-top: 10%;
+    background-color: #37BFDD;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilo TA-TE-TI */
+#Ta-te-ti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vw;
+}
+#bta-te-ti {
+    background-image: url("Fondo2.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#play{
+    text-align: center;
+}
+
+.Cuadrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 20%;
+    padding-top: 0.3%;
+    padding-bottom: 5.5%;
+    border: 2px solid #E63341;
+}
+    
+.Cuadrado > div{
+    display: flex;
+    margin: 0;
+    background-color: #BCC4EB;
+    border: 2px 2px solid black;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+.Cuadro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    max-width: 30%;
+    margin: 10px;
+    border: 3px solid black;
+    font-size: xx-large;
+}
+    
+.linea {
+    flex-wrap: nowrap;
+}
+
+.cuadrado:nth-child(4),
+.cuadrado:nth-child(5),
+.cuadrado:nth-child(6) {
+    border-top: none;
+}
+
+.linea:first-child .square,
+.linea:last-child .square {
+    border-bottom: none;
+}
+
+/* Estilo Modal */
+#modal {
+    text-align: center;
+}
+
+dialog::backdrop {
+    background-color:white;
+}
+
+#CerrarModal {
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    z-index: 100;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background: black;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+/* Estilo Ajustes */
+:root {
+    --colorNormal:black;
+    font-size:1rem; 
+}
+
+p, h1, h2, h3 {
+    color: var(--colorNormal);
+    width: 90vw;
+}
+
+.modo-dia {
+    background-image: url("Fondo4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.modo-noche {
+    background-image: url("Fondo3.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#username {
+    position: fixed;
+    top: 1px;
+    right: 10px;
+    padding: 12px;
+    width: 100px;
+    height: 6px;
+    margin-top: 16px;
+    color: #000;
+    font-size: large;
+    background-color: #377bb5;
+    border-radius: 5px;
+    border-width: 0px 3px 3px 0px;
+    border-color: #B92829;
+    border-style: solid;
+    text-align: center;
+    box-shadow: 2px 2px rgb(232, 202, 35);
+}

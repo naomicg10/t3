@@ -3,7 +3,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<link rel="stylesheet" type="text/css" href="XML.css" />
+				<link rel="stylesheet" type="text/css" href="estilos.css" />
 			</head>
 			<body>
 				<h1> <xsl:value-of select="Cancion/titulo"></xsl:value-of></h1>
