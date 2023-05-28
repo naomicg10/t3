@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="XML.xsl"?>
 <Cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML.xsd">
 	<titulo>It's Been A Long, Long Time</titulo>
-	<artista>Harry James & his Orchestra</artista>
+	<artista>Harry James and his Orchestra</artista>
 		<estrofa>
 			<tipo>normal</tipo>
 			<verso>Never thought that you would be</verso>
