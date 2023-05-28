@@ -51,15 +51,8 @@ li a {
 /* Estilo XML */
 #XML {
     counter-reset: estrofa section;
-    width: 55%;
     margin: 0 auto; 
-    background-color: #B92829;
-    text-align: center;
-}
-
-header {
-    font-style: italic;
-    text-align: center;
+    background-color: #b9282860;
 }
 
 /* Estilo TA-TE-TI */
