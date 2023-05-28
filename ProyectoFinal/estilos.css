@@ -48,6 +48,19 @@ li a {
     font-weight: bold;
 }
 
+/* Estilo XML */
+#XML {
+    counter-reset: estrofa section;
+    width: 55%;
+    margin: 0 auto; 
+    background-color: #B92829;
+}
+
+header {
+    font-style: italic;
+    text-align: center;
+}
+
 /* Estilo TA-TE-TI */
 #Ta-te-ti {
     display: flex;
